@@ -1,0 +1,90 @@
+span
+{
+	display: inline-block; 
+	margin: 8px; 
+	box-shadow: 1px 2px 2px grey; 
+}
+
+body {
+  background-color: white;
+	padding: 30px;
+	max-width: 350px;
+	margin: auto;
+}
+
+.newspaper {
+	background-color: antiquewhite;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+.magazine1  {
+  background-color: teal;
+  color:white;
+  font-family: Verdana;
+	font-weight: 900;
+	text-transform: uppercase; 
+}
+
+.magazine2 {
+	background-image: url('pink-pattern.png');
+  color: fuchsia;
+  font-family: Verdana;
+	font-weight: 900;
+}
+
+.medium {
+	font-size: 20px;
+	padding: 8px;
+}
+
+.big {
+	font-size: 30px;
+	padding: 10px;
+}
+
+.reallybig {
+	font-size: 40px;
+	padding: 15px;
+}
+
+.rotateleft {
+	transform: rotate(-5deg);
+}
+
+.rotateright {
+	transform: rotate(5deg);
+}
+
+.skewleft {
+	transform: skewX(10deg);
+}
+
+.skewright {
+	transform: skewX(-10deg);
+}
+.extremeskewright {
+	transform: scaleX(-20deg);	
+}
+.extremeskewleft {
+	transform: scaleX(20deg);	
+}
+.fartoobig {
+	font-size: 60px;
+	padding: 20px;
+}
+.ohgoodlord {
+	font-size: 100px;
+	padding: 30px;
+}
+
+.smol {
+	font-size: 10px;
+}
+.toosmol {
+	font-size: 5px;
+}
+.regulardiv {
+	border-style: solid;
+	box-shadow: 100px green;
+}
